@@ -40,7 +40,11 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-    buildFeatures {
-        aidl true
-    }
+}
+
+dependencies {
+    // Official Sunmi printer SDK (com.sunmi.peripheral.printer.*).
+    // Avoids local woyou.aidlservice.jiuiv5 AIDL that duplicates com.sunmi:paylib
+    // and breaks Stone POS + sunmi DEX merge.
+    implementation 'com.sunmi:printerlibrary:1.0.24'
 }

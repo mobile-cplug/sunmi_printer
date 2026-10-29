@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.4
+- Replace local `woyou.aidlservice.jiuiv5` AIDL with `com.sunmi:printerlibrary`
+  to avoid duplicate-class DEX merge with Stone `com.sunmi:paylib` on sunmi POS.
+
+# Changelog
+
 
 ## 2.1.03#
 -Upgrade gradle to compileSdkVersion 34 in android core!

@@ -16,7 +16,6 @@ import java.util.HashMap;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import woyou.aidlservice.jiuiv5.ICallback;
 
 /** SunmiPrinterPlugin */
 public class SunmiPrinterPlugin implements FlutterPlugin, MethodCallHandler {
